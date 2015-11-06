@@ -1,0 +1,53 @@
+/*
+DROP TABLE Lmember;
+CREATE TABLE Lmember(
+	email VARCHAR2(30) CONSTRAINT Lmember_nn_email NOT NULL,
+	pwd VARCHAR2(10) CONSTRAINT Lmember_nn_pwd NOT NULL,
+	name VARCHAR2(34) CONSTRAINT Lmember_nn_name NOT NULL,
+	nickname VARCHAR2(34) CONSTRAINT Lmember_nn_nickname NOT NULL,
+	sex CHAR(6),
+	age NUMBER,
+	nation VARCHAR2(20) CONSTRAINT Lmember_nn_nation NOT NULL,
+	tel VARCHAR2(20) CONSTRAINT Lmember_nn_tel NOT NULL,
+	lang VARCHAR2(20) CONSTRAINT Lmember_nn_lang NOT NULL,
+	intro CLOB,
+	Photo BLOB,
+    admin CHAR(1) DEFAULT 'n',
+	CONSTRAINT Lmember_pk_email PRIMARY KEY(email),
+	CONSTRAINT Lmember_ck_sex CHECK(sex IN('남자','여자')),
+     CONSTRAINT Lmember_ck_admin CHECK(admin IN('y','n'))
+);
+
+INSERT INTO Lmember (email,pwd,name,nickname,nation,tel,lang,admin,sex) VALUES('488654@naver.com','1234','joo','kidjoo','KOR','010-1111-1111','JPN','y','여자');
+COMMIT;
+
+DROP TABLE g_table;
+CREATE TABLE g_table(
+g_no NUMBER CONSTRAINT gt_nn_gno NOT NULL,
+g_email VARCHAR2(30) CONSTRAINT gt_nn_gmail NOT NULL,
+g_title VARCHAR2(50) CONSTRAINT gt_nn_gtit NOT NULL,
+g_photo BLOB,
+g_content CLOB CONSTRAINT gt_nn_gcont NOT NULL,
+g_hit NUMBER DEFAULT 0,
+g_regdate DATE DEFAULT SYSDATE,
+CONSTRAINT gt_pk_gno PRIMARY KEY(g_no)
+);
+*/
+INSERT INTO g_table (g_no,g_email,g_title,g_content,g_regdate) VALUES((SELECT NVL(MAX(g_no)+1,1) FROM g_table),'488654@naver.com','영22222222222222람~~!!','마포구 영어스터디구해요',SYSDATE);
+COMMIT;
+/*
+CREATE TABLE Interest(
+ i_no NUMBER CONSTRAINT it_nn_ino NOT NULL,
+ i_email VARCHAR2(30) CONSTRAINT it_nn_email NOT NULL,
+ i_bno NUMBER CONSTRAINT it_nn_bno NOT NULL,
+CONSTRAINT it_pk_ino PRIMARY KEY(i_no,i_email),
+CONSTRAINT it_fk_bno FOREIGN KEY(i_bno) REFERENCES g_table(g_no)
+);
+INSERT INTO g_table (g_no,g_email,g_title,g_content,g_regdate) VALUES((SELECT NVL(MAX(g_no)+1,1) FROM g_table),'488654@naver.com','�쁺�뼱�븷�궗�엺~~!!','留덊룷援� �쁺�뼱�뒪�꽣�뵒援ы빐�슂',SYSDATE);
+COMMIT;
+
+
+INSERT INTO Interest VALUES((SELECT NVL(MAX(i_no)+1,1) FROM INTEREST),'488654@naver.com',1);
+COMMIT;
+
+*/

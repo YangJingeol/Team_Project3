@@ -1,0 +1,416 @@
+a {
+    text-decoration: none;
+}
+body {
+    font-family: Dotum, 돋움, sans, sans-serif, apple-gothic;
+}
+body, ul, ol, html, h1, h2, h3, h4, h5, h6, p, img, form, dl, dd, dt {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+div {
+    display: block;
+}
+div.content {
+    margin-bottom: 0;
+    clear: both;
+    width: 980px;
+    margin: 20px auto;
+    position: relative;
+}
+h4 {
+    display: block;
+    -webkit-margin-before: 1.33em;
+    -webkit-margin-after: 1.33em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+h4.subTitle {
+    margin-bottom: 7px;
+    font-size: 12px;
+    line-height: 18px;
+    color: #4195f5;
+}
+h4.subTitle .star {
+    color: #ef3129;
+}
+img {
+    border: 0px;
+}
+input.text {
+    background: none #f8f8f8;
+    line-height: 18px \9;
+    font-size: 12px;
+    color: #333;
+    border: 1px solid #ccc;
+    padding-left: 3px;
+    vertical-align: top;
+    height: 28px;
+    padding-top: 5px \9;
+    height: 23px \9;
+}
+input.text, textarea.text {
+    font-family: Dotum, 돋움, sans, sans-serif, apple-gothic;
+}
+label.displayNone {
+    display: none !important;
+}
+option {
+    font-weight: normal;
+    display: block;
+    padding: 0px 2px 1px;
+    white-space: pre;
+    min-height: 1.2em;
+}
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+strong, b {
+    font-weight: bold;
+}
+select, select[size="0"], select[size="1"] {
+    border-radius: 0px;
+    border-color: rgb(169, 169, 169);
+}
+select:not(:-internal-list-box) {
+    overflow: visible !important;
+}
+select {
+    -webkit-appearance: menulist;
+    box-sizing: border-box;
+    align-items: center;
+    border: 1px solid;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    white-space: pre;
+    -webkit-rtl-ordering: logical;
+    color: black;
+    background: none #f8f8f8;
+    border: 1px solid #ccc;
+    cursor: default;
+    height: 28px;
+    margin-bottom: 15px;
+}
+select.date-select {
+    display: inline-block;
+    vertical-align: top;
+    width: 115px;
+    height: 29px;
+    margin-bottom : 0px;
+}
+textarea {
+    margin: 0em;
+    font: 13.3333px Arial;
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    -webkit-writing-mode: horizontal-tb;
+}
+textarea.text {
+    font-family: Dotum, 돋움, sans, sans-serif, apple-gothic;
+}
+textarea.text {
+    border: 1px solid #ccc;
+    height: 21px;
+    line-height: 21px \9;
+    color: #666;
+}
+#attachToContent.uploadify {
+    float: right;
+    margin-top: 5px;
+}
+.action a.button {
+    line-height: 38px;
+    height: 34px;
+}
+.action .button {
+    cursor: pointer;
+    float: none;
+    display: inline-block;
+    width: 120px;
+    font-size: 12px;
+    line-height: 38px;
+    height: 35px;
+    color: #fff;
+    font-weight: bold;
+    background: none #4294f2;
+    border: 1px solid #3f8ce6;
+    border-top: 0;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px 4px 4px 4px;
+    -webkit-box-shadow: 0 1px 0 0 #387ece;
+    -moz-box-shadow: 0 1px 0 0 #387ece;
+    box-shadow: 0 1px 0 0 #387ece;
+    vertical-align: top;
+    margin-right: 5px;
+}
+.action .button.prev, .action .button.temp {
+    background-color: #999;
+    border-color: #828282;
+    -webkit-box-shadow: 0 1px 0 0 #828282;
+    -moz-box-shadow: 0 1px 0 0 #828282;
+    box-shadow: 0 1px 0 0 #828282;
+}
+.admin_email input.text, .admin_email select {
+    width: 115px;
+    padding-top: 0;
+    line-height: 28px \9;
+}
+.admin_num input.text {
+    width: 53px;
+    margin-right: 4px;
+}
+.at {
+    padding: 0 4px;
+}
+.button {
+    display: block;
+    float: left;
+}
+.content .abstract {
+    margin-left: 6px;
+    display: inline-block;
+    width: 520px;
+}
+.content .abstract textarea {
+    width: 514px;
+    height: 96px;
+    border: solid 1px #ccc;
+    background: none #f8f8f8;
+    font-size: 12px;
+    line-height: 18px;
+    padding: 6px;
+    resize: none;
+    overflow: auto;
+}
+.content .banner {
+    display: inline-block;
+    width: 110px;
+    height: 167px;
+    position: relative;
+}
+.content .category .subAdvice {
+    padding-bottom: 14px;
+}
+.content .contents textarea#content {
+    border: 1px solid #C2C2C2;
+    width: 640px;
+    height: 275px;
+}
+.content .core {
+    padding-left: 7.65px;
+}
+.content .core .advice {
+    display: inline-block;
+    width: 269px;
+    color: #999;
+    font-size: 11px;
+    line-height: 16px;
+    vertical-align: top;
+    margin-left: 1px;
+}
+.content .core .input {
+    border-bottom: solid 1px #d2d2d2;
+    display: inline-block;
+    padding-bottom: 5px;
+    width: 648px;
+    margin-right: 27px;
+    vertical-align: top;
+}
+.content .core .subCore {
+    vertical-align: top;
+}
+.content .core .subAdvice {
+    margin: 0;
+    width: 260px;
+    border-top: solid 1px #e8e8e8;
+    border-bottom: solid 1px #e8e8e8;
+    border-left: solid 1px #d8d8d8;
+    margin-top: -1px;
+    padding-left: 9px;
+    position: relative;
+    padding-top: 18px;
+    padding-bottom: 16px;
+    display: block;
+}
+.content div.title {
+    width: 667px;
+    height: 32px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #d2d2d2;
+}
+.content .firstCore {
+    padding-top: 22px;
+    width: 688px;
+}
+.content .firstStep .menu label.firstStep, .content .secondStep .menu label.secondStep {
+    z-index: 1;
+    border-color: #3085e6;
+    background-color: #4195f5;
+    color: #fff;
+}
+.content h2.title {
+    width: 100px;
+    height: 40px;
+    margin-bottom: 18px;
+    margin-left: 10px;
+}
+.content .firstStep div.lastCore {
+    width: 688px;
+    height: 117px;
+}
+.content .lastCore {
+    width: 689px;
+    position: relative;
+}
+.content .input input#title {
+    width: 416px;
+    height: 23px;
+    margin-bottom: 1px;
+}
+.content .menu label {
+    position: relative;
+    display: inline-block;
+    background-color: #e7e7e7;
+    color: #666;
+    border: 1px solid #d8d8d8;
+    vertical-align: top;
+    height: 25px;
+    line-height: 25px;
+    font-family: Verdana;
+    font-size: 11px;
+    padding-right: 10px;
+    padding-left: 11px;
+}
+.content .menu label.firstStep {
+    -webkit-border-radius: 3px 0 0 3px;
+    -moz-border-radius: 3px 0 0 3px;
+    border-radius: 3px 0 0 3px;
+    margin-right: -6px;
+}
+.content .menu label.secondStep {
+    margin-right: -5px;
+    border-radius: 0 3px 3px 0;
+}
+.content .menu a.lastStep, .content .modify .menu a.manage {
+    -webkit-border-radius: 0 3px 3px 0;
+    -moz-border-radius: 0 3px 3px 0;
+    border-radius: 0 3px 3px 0;
+}
+.content .roundBox .menu {
+    display: inline-block;
+    /* width: 189px; */
+    height: 25px;
+    vertical-align: top;
+    float: right;
+    margin-top: 3px;
+}
+.content .title h3.title {
+    display: inline-block;
+    height: 32px;
+    width: 250px;
+    vertical-align: top;
+}
+.innerBanner {
+    position: relative;
+    top: 0;
+    width: 110px;
+    height: 110px;
+    display: inline-block;
+}
+.innerBanner img {
+    width: 110px;
+    height: 110px;
+}
+.publicAdmin .subAdvice {
+    padding-bottom: 15px;
+}
+.roundBox {
+    border: 1px solid #d8d8d8;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px 5px 5px 5px;
+    margin-right: 1px;
+    margin-right: 0 \9;
+    -webkit-box-shadow: 1px 1px 1px #d8d8d8;
+    -moz-box-shadow: 1px 1px 1px #d8d8d8;
+    box-shadow: 1px 1px 1px #d8d8d8;
+}
+.roundBox {
+    background: none repeat scroll 0 0 #FFFFFF;
+    padding-left: 20px;
+    margin-right: 0;
+}
+.roundBox.firstStep .action {
+    width: 635px;
+    padding-left: 14px;
+    padding-top: 30px;
+}
+.roundBox .action {
+    display: block;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    height: 36px;
+    width: 662px;
+    text-align: center;
+}
+.secondStep .eventDate .advice .startEvent {
+    padding-bottom: 31px;
+}
+.secondStep .eventDate .advice .setupTime {
+    padding-bottom: 20px;
+}
+.secondStep .eventDate .dateConfig {
+    padding: 10px 11px;
+    border: 1px solid #ccc;
+    line-height: 30px;
+    vertical-align: top;
+    margin-top: -2px;
+    font-size: 12px;
+}
+.secondStep input.text.datepicker {
+    width: 130px;
+    height: 26px;
+    margin-right: 6px;
+}
+.secondStep #place {
+	margin-top: 10px;
+	margin-right: 6px;
+    height: 32px;
+}
+.secondStep .place div.location {
+    padding-bottom: 20px;
+}
+.secondStep .place p.location {
+    padding-bottom: 52px;
+}
+.secondStep .place #location {
+    margin-top: 10px;
+    width: 517px;
+}
+.secondStep .setupTime {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.span{
+	text-align: center;
+	color: red;
+	font-size: 12px;
+	font-weight: bold;
+}

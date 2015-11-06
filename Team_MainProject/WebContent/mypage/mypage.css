@@ -1,0 +1,100 @@
+td,th{
+	color: rgb(102, 102, 102);
+    font-family: �뜝�룞�삕�뜝�룞�삕�뜝�룞�삕�뜝占�, 'Malgun Gothic', �뜝�룞�삕�뜝�룞�삕�뜝�룞�삕�뜝占�, 'Nanum Gothic', �뜝�룞�삕�뜝�룞�삕, dotum, AppleGothic, sans-serif;
+    font-size: 13.3333px;
+}
+a{
+	text-decoration: none;
+	color:black;
+}
+a:hover{
+	text-decoration: underline;
+	color: green;
+} 
+
+ h2{color:#333;font-size:30px;text-align:center;line-height:34px;font-weight:normal;margin-bottom:32px;}
+  h2 span{font-size:12px;color:#888;display:block;line-height:12px;padding-top:10px;}
+
+
+
+
+ #mypage_meeting{position:relative;width:970px;}
+/*mypage subcont*/
+
+.communityCover{position:relative;width:970px;}
+    
+ .menu_list{display:inline-block;width:100%;margin-bottom:20px; margin-left:-40px;}
+ .menu_list li{float:left;padding-bottom:8px;text-align:center;display:inline;}
+ .menu_list li.on{background:url('../images/common/bg_arrow_green.png') no-repeat center bottom}
+ .menu_list li a{display:block;background:#fff;height:48px;border:solid 1px #e4e2dd;border-left:none;line-height:50px;font-size:14px;}
+ .menu_list li.on a{border-color:#1fb56c;background:#1fb56c;color:#fff;}
+ .menu_list li:first-child a{border-left:solid 1px #e4e2dd;}
+ .menu_list.type02 li{width:323.333px;}
+ .menu_list.type02 li:first-child{width:323px;}
+ .menu_list.type02 li.on{background:url('../images/common/bg_arrow_blue.png') no-repeat center bottom}
+ .menu_list.type02 li.on a{border-color:#2281c0;background:#2281c0;}
+ 
+
+#subCont .myCover .lectureCover .cont .delBnt{position:absolute;left:0;top:0;}
+
+/* modify*/
+
+ .board_view th{
+  background-color: #c0c0c0;
+  text-align: left;
+   padding-left: 15px;
+ }
+ 
+  .board_view td{
+  background-color: #fff;
+  text-align: left;
+   padding-left: 20px;
+ }
+ .board_view table{
+	border-color: #ffffff;
+	background-color: #fff;
+	
+}
+
+/* white */
+.btn_pack.white,.btn_pack.white *{height:35px;line-height:33px}
+.btn_pack.white{background-position:left top;color:#5e5e5e;}
+.btn_pack.white *{padding:0 20px 0 15px;background-position:right top;font-size:12px;color:#5e5e5e;}
+
+#q_wrtie .btn_pack.white,.btn_pack.white *{height:35px;line-height:33px}
+#q_wrtie .btn_pack.white{background-position:left top;color:#5e5e5e;}
+#q_wrtie .btn_pack.white *{padding:0 20px 0 15px;background-position:right top;font-size:12px;color:#5e5e5e;}
+
+
+
+
+
+/*content*/
+
+#content .sortCover{height:50px;border:solid 1px #e3e2da;background:#fff;margin-bottom:10px;}
+#content .sortCover li{float:left;padding-left:17px;background:url('../images/bg_bar02.png') no-repeat 8px center;}
+#content .sortCover li:first-child{padding-left:20px;background:none;}
+#content .sortCover li a{font-size:13px;color:#888;line-height:48px;}
+#content .sortCover li.on a{color:#fb916a;}
+#content .sortCover li.calendar{float:right;border-left:solid 1px #e3e2da;background:none;padding-left:0;}
+#content .sortCover li.calendar a{display:block;background:url('../images/bg_calendar.png') no-repeat 20px center;padding:0 20px 0 40px;}
+
+#content {width:940px; overflow:hidden;  margin-top:50px;}
+#content .box{width:300px;height:446px;background:#fff;float:left;margin:0 10px 10px 0;position:relative;}
+#content .box .situation{position:absolute;right:0;top:0;}
+#content .box > p {width:300px;height:306px; margin-bottom: 0px}
+#content .box a {text-decoration:none;color:#666666;}
+#content .box a:link, a:visited {text-decoration:none;color:#666666;}
+#content .box a:hover, a:focus, a:active {text-decoration:none;}
+#content .box .titleCover{display:block;height:80px;padding-top:-5px;border:solid 1px #e3e2da;border-top:none;background:#fcfbf8;}
+#content .box .titleCover span{display:block;text-align:center;}
+#content .box .titleCover .title{font-size:14px;color:#444;line-height:24px;}
+#content .box .titleCover .lang{color:#ff8040;}
+#content .box .titleCover .place{color:#888;}
+#content .box .titleCover .date{color:#fb916a;margin-top:3px;font-size:14px;font-family: 'Open Sans', sans-serif;font-weight:400 !important;letter-spacing:0;}
+#content .box ul{height:48px;border:solid 1px #e3e2da;border-top:none;}
+#content .box ul li{float:left;height:48px;width:149px;text-align:center;line-height:46px;list-style-type:none;}
+#content .box ul li:first-child {width: 148px;border-right: solid 1px #e3e2da;
+}
+#content .box ul li span{color:#c7965b;font-family: 'Open Sans', sans-serif;font-weight:400 !important;letter-spacing:0;}
+

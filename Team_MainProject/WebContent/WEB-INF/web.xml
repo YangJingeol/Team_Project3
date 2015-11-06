@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>151022_Nadeulmok</display-name>
+  <servlet>
+     <servlet-name>mvc</servlet-name>
+     <servlet-class>com.controller.DispatcherServlet</servlet-class>
+     <init-param>
+        <param-name>xmlPath</param-name>
+
+
+  <!-- <param-value>C:\Users\Zoosix\git\Team_Project\Team_MainProject\WebContent\WEB-INF\applicationContext.xml</param-value>  -->
+   <param-value>C:\webDev\webStudy3\Team_MainProject\Team_MainProject\WebContent\WEB-INF\applicationContext.xml</param-value>
+
+<!-- <param-value>C:\Users\sist\git\뜸부기\Team_Project\Team_MainProject\WebContent\WEB-INF\applicationContext.xml</param-value> -->
+        <!-- <param-value>C:\Users\Zoosix\git\Team_MainProject\Team_MainProject\WebContent\WEB-INF\applicationContext.xml</param-value> -->
+  	  <!-- 승주 --><!-- <param-value>C:\Users\sist\git\Team_Project\Team_MainProject\WebContent\WEB-INF\applicationContext.xml</param-value>  -->
+
+        <!-- 민수 --><!-- <param-value>C:\Users\hong\git\Team_Project\Team_MainProject\WebContent\WEB-INF\applicationContext.xml</param-value> -->
+     </init-param>
+  </servlet>
+  <servlet-mapping>
+     <servlet-name>mvc</servlet-name>
+     <url-pattern>*.do</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

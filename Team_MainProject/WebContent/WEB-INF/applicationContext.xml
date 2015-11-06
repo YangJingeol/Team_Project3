@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+     startDocument() : xml이 시작이 된다 
+ -->
+<beans>
+<!-- startElement() -->
+  <!-- main.do MainModel -->
+  <bean id="main" class="com.model.MainModel"/>
+  <!-- startElement() , endElement()-->
+  <bean id="join" class="com.model.MemberJoinModel"/>
+  <bean id="login" class="com.model.LoginModel"/>
+  <bean id="login_check" class="com.model.LoginCheckModel"/>
+  <bean id="logout" class="com.model.LogoutModel"/>
+  <bean id="idcheck" class="com.model.IdCheckModel"></bean>
+  <bean id="join_ok" class="com.model.JoinOkModel"/>	
+  <bean id="meeting_detail" class="com.model.MeetingDetailModel"/>
+  
+  <!-- 마이페이지 (Mypage)  -->
+  <bean id="meeting" class="com.model.MyMeetingModel"/>
+  <bean id="wish" class="com.model.MyWishModel"/>
+  <bean id="modify" class="com.model.MyModifyModel"/>
+  <bean id="modify_ok" class="com.model.MyModify_OkModel"/>
+  <bean id="gtable" class="com.model.GtableModel"/>	
+  <bean id="search" class="com.model.SearchModel"/>	
+  
+  
+  <!-- 고객센터  -->
+  <bean id="notice" class="com.model.Notice_BoardListModel.java"/>
+  
+</beans>
+  <!-- endElement() -->
+  <!-- endDocument() -->

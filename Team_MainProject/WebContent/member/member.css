@@ -1,0 +1,33 @@
+td,th{
+	color: rgb(102, 102, 102);
+    font-family: 占쏙옙占쏙옙占쏙옙占�, 'Malgun Gothic', 占쏙옙占쏙옙占쏙옙占�, 'Nanum Gothic', 占쏙옙占쏙옙, dotum, AppleGothic, sans-serif;
+    font-size: 13.3333px;
+}
+a{
+	text-decoration: none;
+	color:black;
+}
+a:hover{
+	text-decoration: underline;
+	color: green;
+} 
+
+ h2{color:#333;font-size:30px;text-align:center;line-height:34px;font-weight:normal;margin-bottom:32px;}
+  h2 span{font-size:12px;color:#888;display:block;line-height:12px;padding-top:10px;}
+
+  
+#subCont .memberCover .loginWrap{overflow:hidden;border:solid 1px #e3e2da;background:#fff;padding: 50px 0 50px 200px;}
+#subCont .memberCover .loginWrap > p{float:left;padding-top:20px;}
+#subCont .memberCover .loginWrap > div{float:left;/* padding-left:45px; */}
+#subCont .memberCover .loginWrap ul{position:relative;width:355px;}
+#subCont .memberCover .loginWrap ul li{position:relative; display:inline;}
+#subCont .memberCover .loginWrap ul li label{position:absolute;left:15px;top:17px;font-size:14px;}
+#subCont .memberCover .loginWrap ul li label:hover{cursor:auto;}
+#subCont .memberCover .loginWrap ul li input{border:solid 1px #d9d8d8;height:40px;width:241px;padding:5px;background:#f6f6f6;line-height:40px;}
+#subCont .memberCover .loginWrap ul li:first-child input{border-bottom:none;}
+#subCont .memberCover .loginWrap .loginBtn{position:absolute;right:0;top:0;text-align:center;background:#2281c0;}
+#subCont .memberCover .loginWrap .loginBtn a{display:block;width:103px;height:103px;color:#fff;font-size:18px;line-height:103px;}
+#subCont .memberCover .joinGo{padding-top:80px;background:url('../images/common/bg_member.png') no-repeat center top}
+  
+  
+  

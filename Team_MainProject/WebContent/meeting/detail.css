@@ -1,0 +1,216 @@
+body {background:#f4f3ee;font-family:"¸¼Àº°íµñ",Malgun Gothic,"³ª´®°íµñ",Nanum Gothic,'µ¸¿ò',dotum,AppleGothic,sans-serif;font-size:12px;color:#666666;line-height:16px;font-weight:normal;padding:0px;margin:0px;letter-spacing:-1px;}
+html, body {width:100%;height:100%;}
+span {padding:0px;margin:0px;}
+ul, ol, dl, dd, dt, li {list-style-type:none;margin:0;padding:0px;line-height:16px;}
+form, fieldset, p {margin:0;padding:0;border:0;}
+table {width:100%;table-layout:fixed;}
+table, tbody, tfoot, thead, tr, th, td {border-collapse:separate;border-spacing:0;table-layout:fixed;}/*border:none; separate*/
+/* 6 */* html table, tbody, tfoot, thead, tr, th, td {border-collapse:collapse;}
+/* 7 */* + html table, tbody, tfoot, thead, tr, th, td {border-collapse:collapse;}
+legend {display:none;position:absolute;visibility:hidden;}
+caption {visibility:hidden;width:0px;height:0px;overflow:hidden;font-size:0px;margin:0px;padding:0px;line-height:0px;}
+img {border:0;vertical-align:middle;outline:none;}
+optgroup {font-style:normal;font-size:0px;height:0px;line-height:0px;}
+label {cursor:pointer;}
+input.radio {width:12px;height:12px;}
+img, fieldset {border:0 none transparent;/*'transparent' for Opera7*/}
+i, em {font-style:normal;}
+select {border:1px solid #ccc; height:22px; width:80px; font-family:"¸¼Àº°íµñ",Malgun Gothic,"³ª´®°íµñ",Nanum Gothic,'µ¸¿ò',dotum,AppleGothic,sans-serif;; background:#fff; color:#666666; font-size:12px; margin-right:3px;vertical-align:middle;}
+input {border:1px solid #ccc; height:22px; font-family:"¸¼Àº°íµñ",Malgun Gothic,"³ª´®°íµñ",Nanum Gothic,'µ¸¿ò',dotum,AppleGothic,sans-serif;; background:#fff; color:#666666; font-size:12px;vertical-align:middle;}
+input[type='image']{border:none;}
+textarea {font-family:"´ÙÀ½";font-size:12px;color:#666666;line-height:16px;font-weight:normal;border:1px solid #c8c8c8; padding:5px; color:#666; resize: none;}
+.cursor {cursor:pointer;}
+element.style {
+}
+media="all"
+#subCont .lecture_info {
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+user agent stylesheetdiv {
+    display: block;
+}
+Inherited from body
+media="all"
+body {
+    background: #f4f3ee;
+    font-family: "´ÙÀ½";
+    font-size: 12px;
+    color: #666666;
+    line-height: 16px;
+    font-weight: normal;
+    padding: 0px;
+    margin: 0px;
+    letter-spacing: -1px;
+}
+#subCont .lecture_info .cont {
+    height: 316px;
+    margin: 0;
+    float: left;
+}
+#subCont .lectureCover .cont {
+    width: 316px;
+    height: 446px;
+    background: #fff;
+    float: left;
+    margin: 0 10px 10px 0;
+    position: relative;
+}
+div {
+    display: block;
+}
+form, fieldset, p {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+user agent stylesheetform {
+    display: block;
+    margin-top: 0em;
+}
+form {
+    display: block;
+    margin-top: 0em;
+}
+83media="all"
+input {
+    border: 1px solid #ccc;
+    height: 22px;
+    font-family: "¸¼Àº°íµñ",Malgun Gothic,"³ª´®°íµñ",Nanum Gothic,'µ¸¿ò',dotum,AppleGothic,sans-serif;
+    background: #fff;
+    color: #666666;
+    font-size: 12px;
+    vertical-align: middle;
+}
+user agent stylesheetinput[type="hidden" i], input[type="image" i], input[type="file" i] {
+    -webkit-appearance: initial;
+    padding: initial;
+    background-color: initial;
+    border: initial;
+}
+user agent stylesheetinput[type="hidden" i] {
+    display: none;
+}
+user agent stylesheetinput {
+    -webkit-appearance: textfield;
+    padding: 1px;
+    background-color: white;
+    border: 2px inset;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    -webkit-rtl-ordering: logical;
+    -webkit-user-select: text;
+    cursor: auto;
+}
+user agent stylesheetinput, textarea, keygen, select, button {
+    margin: 0em;
+    font: 13.3333px Arial;
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+}
+user agent stylesheetinput, textarea, keygen, select, button, meter, progress {
+    -webkit-writing-mode: horizontal-tb;
+}
+83media="all"
+input {
+    border: 1px solid #ccc;
+    height: 22px;
+    font-family: "¸¼Àº°íµñ",Malgun Gothic,"³ª´®°íµñ",Nanum Gothic,'µ¸¿ò',dotum,AppleGothic,sans-serif;
+    background: #fff;
+    color: #666666;
+    font-size: 12px;
+    vertical-align: middle;
+}
+user agent stylesheetinput[type="hidden" i], input[type="image" i], input[type="file" i] {
+    -webkit-appearance: initial;
+    padding: initial;
+    background-color: initial;
+    border: initial;
+}
+user agent stylesheetinput[type="hidden" i] {
+    display: none;
+}
+user agent stylesheetinput {
+    -webkit-appearance: textfield;
+    padding: 1px;
+    background-color: white;
+    border: 2px inset;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    -webkit-rtl-ordering: logical;
+    -webkit-user-select: text;
+    cursor: auto;
+}
+user agent stylesheetinput, textarea, keygen, select, button {
+    margin: 0em;
+    font: 13.3333px Arial;
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+}
+user agent stylesheetinput, textarea, keygen, select, button, meter, progress {
+    -webkit-writing-mode: horizontal-tb;
+}
+media="all"
+#subCont .lecture_info .infoCover {
+    float: left;
+    background: #fff;
+    width: 591px;
+    height: 274px;
+    padding: 20px 30px;
+    border: solid 1px #e3e2da;
+    border-left: none;
+}
+user agent stylesheetdiv {
+    display: block;
+}
+
+
+#subCont .lectureCover{overflow:hidden;}
+#subCont .lectureCover .cont{width:316px;height:446px;background:#fff;float:left;margin:0 10px 10px 0;position:relative;}
+#subCont .lectureCover .cont .situation{position:absolute;right:0;top:0;}
+#subCont .lectureCover .cont > p {width:316px;height:316px;}
+#subCont .lectureCover .cont .titleCover{display:block;height:70px;padding-top:10px;border:solid 1px #e3e2da;border-top:none;background:#fcfbf8;}
+#subCont .lectureCover .cont .titleCover span{display:block;text-align:center;}
+#subCont .lectureCover .cont .titleCover .title{font-size:14px;color:#444;line-height:24px;}
+#subCont .lectureCover .cont .titleCover .place{color:#888;}
+#subCont .lectureCover .cont .titleCover .date{color:#fb916a;margin-top:3px;font-size:14px;font-family: 'Open Sans', sans-serif;font-weight:400 !important;letter-spacing:0;}
+#subCont .lectureCover .cont ul{height:48px;border:solid 1px #e3e2da;border-top:none;}
+#subCont .lectureCover .cont ul li{float:left;height:48px;width:157px;text-align:center;line-height:46px;}
+#subCont .lectureCover .cont ul li:first-child{width:156px;border-right:solid 1px #e3e2da;}
+#subCont .lectureCover .cont ul li span{color:#c7965b;font-family: 'Open Sans', sans-serif;font-weight:400 !important;letter-spacing:0;}
+
+/*°­ÀÇ½ÅÃ»_¸ñ·Ï*/
+#subCont .lecture_info{overflow:hidden;margin-bottom:50px;}
+#subCont .lecture_info .cont{height:316px;margin:0;float:left;}
+#subCont .lecture_info .cont ul{position:absolute;left:0;bottom:0;border-top:solid 1px #e3e2da;background:#fcfaf9;}
+#subCont .lecture_info .infoCover{float:left;background:#fff;width:591px;height:274px;padding:20px 30px;border:solid 1px #e3e2da;border-left:none;}
+#subCont .lecture_info .infoCover .title{position:relative;}
+#subCont .lecture_info .infoCover .title p{font-size:18px;color:#444;line-height:28px;padding-bottom:10px;}
+#subCont .lecture_info .infoCover .title .sns_list{position:absolute;}
+#subCont .lecture_info .infoCover .info_list{overflow:hidden;margin-bottom:10px;}
+#subCont .lecture_info .infoCover .info_list > li{float:left;width:50%;border-top:solid 1px #e3e2da;height:40px;line-height:40px;font-size:13px;}
+#subCont .lecture_info .infoCover .info_list > li.line-h{line-height:36px;}
+#subCont .lecture_info .infoCover .info_list > li > span:first-child{display:inline-block;width:60px;padding-left:8px;background:url('../images/common/bg_dot.gif') no-repeat left center;}
+#subCont .lecture_info .infoCover .info_list > li.tuition{width:100%;clear:both;}
+#subCont .lecture_info .infoCover .info_list > li.tuition .price{color:#ff5a00;font-size:18px;}
+#subCont .lecture_info .infoCover .info_list > li.tuition .price span{font-size:24px;font-family: 'Open Sans', sans-serif;font-weight:700 !important;letter-spacing:0;vertical-align:middle;}

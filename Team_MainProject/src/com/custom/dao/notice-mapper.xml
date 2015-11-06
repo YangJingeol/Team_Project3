@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="EUC-KR"?>
+<!DOCTYPE mapper  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.custom.dao.notice-mapper">
+	<select id="notice_boardListData" resultType="notice" parameterType="java.util.Map">
+    SELECT n_NO,n_Title,n_Content,n_Hit,n_Regdate,num 
+    FROM (SELECT n_NO,n_Title,n_Content,n_Hit,n_Regdate,rownum as num 
+    FROM (SELECT n_NO,n_Title,n_Content,n_Hit,n_Regdate 
+    FROM notice_Board ORDER BY no DESC))
+    WHERE num BETWEEN #{start} AND #{end}
+  </select>
+   <!-- 총페이지 -->
+  <select id="notice_boardRowCount" resultType="int">
+   SELECT COUNT(*) FROM notice_Board
+  </select>
+</mapper>
